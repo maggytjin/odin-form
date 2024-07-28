@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+img {
+    height: 100vh;
+}
+.image_text {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    background-color: purple;
+    width: 700px;
+    margin: 0;
+}
