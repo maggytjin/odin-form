@@ -8,20 +8,37 @@ body {
     flex-direction: row;
     justify-content: center;
 }
-img {
+.redwood-img {
     height: 100vh;
+}
+.logo-img {
+    width: 50px;
+    position: absolute;
+    left: 25%;
+    bottom: 50%;
+    transform: translate(-50%, -50%);
+}
+.logo-background {
+    background-color: black;
+    opacity: 0.5;
+    position: absolute;
+    width: 40%;
+    height: 100px;
+    left: 25%;
+    bottom: 46%;
+    transform: translate(-50%, -50%);
 }
 .image_text {
     color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
+    position: absolute;
+    left: 15%;
+    bottom: 3%;
 }
 
 .right {
     display: flex;
     flex-direction: column;
-    background-color: purple;
-    width: 700px;
+    background-color: yellow;
     margin: 0;
+    width: 50%;
 }
