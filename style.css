@@ -61,22 +61,28 @@ body {
     padding: 5%;
 }
 
-#form {
+#main {
     display: flex;
     flex-direction: column;
+    width: 90%;
+    left: 50px;
 }
-#form > h1 {
+#main > h1 {
     margin: 0;
+}
+#form {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 50%;
 }
 #first_name, #last_name, #email, #phone, #password, #confirm_password {
     margin-top: 5px;
     border: 1px solid #E5E7EB;
 }
-.label {
-    margin: 0;
-}
-.form_sec {
-    padding: 10px;
+.fields {
+    padding-top: 30px;
+    padding-left: 50px;
     display: flex;
-    justify-content: flex-start;
+    flex-direction: column;
 }

@@ -24,27 +24,28 @@
             <p>This is not a real online service! Sign up if you dare. Nothing will be saved, so you have nothing to worry about.</p>
             <p>You know you want to.</p>
         </div>
-        <div id="form">
+        <div id="main">
             <h1>Let's do this!</h1>
-            <form method="get">
-                <span>
-                    <label for="first_name" class="label">FIRST NAME</label>
-                    <input type="text" id="first_name" name="first_name">
-                    <label for="email" class="label">EMAIL</label>
-                    <input type="email" id="email" name="email">
-                    <label for="password" class="label">PASSWORD</label>
-                    <input type="password" id="password" name="password">
-                </span> 
-                <span>
-                    <label for="last_name" class="label">LAST NAME</label>
-                    <input type="text" id="last_name" name="last_name">
-                    <label for="number" class="label">PHONE NUMBER</label>
-                    <input type="text" id="phone" name="phone_number">
-                    <label for="confirm_password" class="label">CONFIRM PASSWORD</label>
-                    <input type="password" id="confirm_password" name="confirm_password">
-                </span>
-                
-            </form>
+            <div id="form">
+                <form method="get">
+                    <div class="fields first">
+                        <label for="first_name" class="label">FIRST NAME</label>
+                        <input type="text" id="first_name" name="first_name">
+                        <label for="number" class="label">PHONE NUMBER</label>
+                        <input type="text" id="phone" name="phone_number">
+                        <label for="password" class="label">PASSWORD</label>
+                        <input type="password" id="password" name="password">
+                    </div>
+                    <div class="fields second">
+                        <label for="last_name" class="label">LAST NAME</label>
+                        <input type="text" id="last_name" name="last_name">
+                        <label for="email" class="label">EMAIL</label>
+                        <input type="email" id="email" name="email">
+                        <label for="confirm_password" class="label">CONFIRM PASSWORD</label>
+                        <input type="password" id="confirm_password" name="confirm_password">
+                    </div>
+                </form>
+            </div>
         </div>
     </div>
 
