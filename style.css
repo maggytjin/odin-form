@@ -59,30 +59,49 @@ body {
     margin: 0;
     font-size: 1.5rem;
     padding: 5%;
+    background-color: rgb(254, 249, 243);
 }
 
 #main {
     display: flex;
     flex-direction: column;
-    width: 90%;
+    width: 100%;
     left: 50px;
+    border: 1px solid white;
+    box-shadow: 2px 5px 5px rgb(194, 194, 194);
+    padding-bottom: 5%;
 }
 #main > h1 {
     margin: 0;
+    padding: 5% 0 0 5%;
 }
 #form {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
-    width: 50%;
+    justify-content:flex-start;
 }
 #first_name, #last_name, #email, #phone, #password, #confirm_password {
     margin-top: 5px;
     border: 1px solid #E5E7EB;
 }
 .fields {
-    padding-top: 30px;
+    padding-top: 22px;
     padding-left: 50px;
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
+    width: 30%;
+}
+.label {
+    padding-top: 10px;
+}
+#bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+button {
+    color: white;
+    background-color: #596D48;
+    width: 50%;
 }
