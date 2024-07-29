@@ -22,6 +22,7 @@
     <div id="right">
         <div id="description">
             <p>This is not a real online service! Sign up if you dare. Nothing will be saved, so you have nothing to worry about.</p>
+            </br>
             <p>You know you want to.</p>
         </div>
         <div id="main">
@@ -30,25 +31,25 @@
                 <div id="form">
                     <div class="fields first">
                         <label for="first_name" class="label">FIRST NAME</label>
-                        <input type="text" id="first_name" name="first_name">
+                        <input type="text" id="first_name" name="first_name" required>
                         <label for="number" class="label">PHONE NUMBER</label>
-                        <input type="text" id="phone" name="phone_number">
+                        <input type="text" id="phone" name="phone_number" required>
                         <label for="password" class="label">PASSWORD</label>
-                        <input type="password" id="password" name="password">
+                        <input type="password" id="password" name="password" required>
                     </div>
                     <div class="fields second">
                         <label for="last_name" class="label">LAST NAME</label>
-                        <input type="text" id="last_name" name="last_name">
+                        <input type="text" id="last_name" name="last_name" required>
                         <label for="email" class="label">EMAIL</label>
-                        <input type="email" id="email" name="email">
+                        <input type="email" id="email" name="email" required>
                         <label for="confirm_password" class="label">CONFIRM PASSWORD</label>
-                        <input type="password" id="confirm_password" name="confirm_password">
+                        <input type="password" id="confirm_password" name="confirm_password" required>
                     </div>
                 </div>
             </form>
         </div>
         <div id="bottom">
-            <button>Create Account</button>
+            <button type="submit">Create Account</button>
             <p>Already have an account? <a href="#">Log in</a></p>
         </div>
     </div>

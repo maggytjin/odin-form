@@ -4,6 +4,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #left {
@@ -58,8 +59,11 @@ body {
     flex-direction: column;
     margin: 0;
     font-size: 1.5rem;
-    padding: 5%;
+    padding: 8% 5%;
     background-color: rgb(254, 249, 243);
+}
+#description > p {
+    margin: 0;
 }
 
 #main {
@@ -83,6 +87,7 @@ body {
 #first_name, #last_name, #email, #phone, #password, #confirm_password {
     margin-top: 5px;
     border: 1px solid #E5E7EB;
+    padding: 7px;
 }
 .fields {
     padding-top: 22px;
@@ -95,6 +100,12 @@ body {
 .label {
     padding-top: 10px;
 }
+form:invalid {
+    border: 1px solid red;
+}
+input:focus {
+    box-shadow: 2px 5px 5px rgb(194, 194, 194);
+}
 #bottom {
     display: flex;
     flex-direction: column;
@@ -104,9 +115,17 @@ body {
     padding-top: 50px;
 }
 button {
-    color: white;
     background-color: #596D48;
-    width: 30%;
+    width: 25%;
     padding: 2% 5% 2% 5%;
     border-radius: 10px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    border: none;
+    font-size: 1rem;
+    box-shadow: 1px 2px 2px rgb(194, 194, 194);
+}
+#bottom > p {
+    padding-top: 30px;
 }
