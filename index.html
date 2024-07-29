@@ -7,23 +7,40 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <div class="image">
-            <img src="/redwoods.jpg" class="redwood-img">
-            <div class="logo">
-                <div class="logo-background"></div>
-                <img src="/odin-logo.png" class="logo-img">
-            </div>
-            <div class="image_text">
-                <p>Photo by <a href="https://unsplash.com/@iamthedave?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Dave Hoefler</a> on <a href="https://unsplash.com/photos/low-angle-photography-of-green-leaf-tree-rw2sFOdBszI?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></p>
-            </div>
+    <div id="left">
+        <img src="/redwoods.jpg" class="redwood-img">
+        <div id="logo">
+            <div class="logo-background"></div>
+            <img src="/odin-logo.png" class="logo-img">
+            <p id="logo-text">ODIN</p>
         </div>
+        <div id="credit">
+            <p>Photo by <a href="https://unsplash.com/@iamthedave?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Dave Hoefler</a> on <a href="https://unsplash.com/photos/low-angle-photography-of-green-leaf-tree-rw2sFOdBszI?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></p>
+        </div>
+    </div>
 
-        <div class="right">
-            <div class="heading">
-                <h1>This is the heading</h1>
-            </div>
+    <div id="right">
+        <div id="description">
+            <p>This is not a real online service! Sign up if you dare. Nothing will be saved, so you have nothing to worry about.</p>
+            <p>You know you want to.</p>
         </div>
+        <div id="form">
+            <form method="get">
+                <label for="first_name">FIRST NAME</label>
+                <input type="text" id="first_name" name="first_name">
+                <label for="last_name">LAST NAME</label>
+                <input type="text" id="last_name" name="last_name">
+                <label for="email">EMAIL</label>
+                <input type="email" id="email" name="email">
+                <label for="phone">PHONE NUMBER</label>
+                <input type="text" id="phone" name="phone_number">
+                <label for="password">PASSWORD</label>
+                <input type="password" id="password" name="password">
+                <label for="confirm_password">CONFIRM PASSWORD</label>
+                <input type="password" id="confirm_password" name="confirm_password">
+            </form>
+        </div>
+    </div>
 
     </div> 
 </body>
