@@ -46,6 +46,9 @@ body {
     bottom: 1%;
     text-align: center;
 }
+.photo-link {
+    color: white;
+}
 
 #right {
     display: flex;
@@ -78,6 +81,7 @@ body {
 #main > h1 {
     margin: 0;
     padding: 5% 0 0 5%;
+    font-size: large;
 }
 #form {
     display: flex;
@@ -100,8 +104,8 @@ body {
 .label {
     padding-top: 10px;
 }
-form:invalid {
-    border: 1px solid red;
+#password:invalid, #confirm_password:invalid {
+    border: 2px solid red;
 }
 input:focus {
     box-shadow: 2px 5px 5px rgb(194, 194, 194);
@@ -128,4 +132,9 @@ button {
 }
 #bottom > p {
     padding-top: 30px;
+}
+a:visited, a:link, a:active, a:hover {
+    color: #596D48;
+    font-weight: bold;
+    text-decoration: none;
 }

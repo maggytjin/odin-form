@@ -15,7 +15,7 @@
             <p id="logo-text">ODIN</p>
         </div>
         <div id="credit">
-            <p>Photo by <a href="https://unsplash.com/@iamthedave?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Dave Hoefler</a> on <a href="https://unsplash.com/photos/low-angle-photography-of-green-leaf-tree-rw2sFOdBszI?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></p>
+            <p>Photo by <a href="https://unsplash.com/@iamthedave?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" class="photo-link">Dave Hoefler</a> on <a href="https://unsplash.com/photos/low-angle-photography-of-green-leaf-tree-rw2sFOdBszI?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" class="photo-link">Unsplash</a></p>
         </div>
     </div>
 
@@ -35,7 +35,7 @@
                         <label for="number" class="label">PHONE NUMBER</label>
                         <input type="text" id="phone" name="phone_number" required>
                         <label for="password" class="label">PASSWORD</label>
-                        <input type="password" id="password" name="password" required>
+                        <input type="password" id="password" name="password" minlength="8" required>
                     </div>
                     <div class="fields second">
                         <label for="last_name" class="label">LAST NAME</label>
@@ -43,7 +43,7 @@
                         <label for="email" class="label">EMAIL</label>
                         <input type="email" id="email" name="email" required>
                         <label for="confirm_password" class="label">CONFIRM PASSWORD</label>
-                        <input type="password" id="confirm_password" name="confirm_password" required>
+                        <input type="password" id="confirm_password" name="confirm_password" minlength="8" required>
                     </div>
                 </div>
             </form>
